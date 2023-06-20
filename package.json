@@ -1,0 +1,21 @@
+{
+  "name": "js-template-engine",
+  "version": "1.0.0",
+  "description": "Basic template engine for JavaScript and Node.js",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "vanilla-js",
+    "nodejs",
+    "template-engine",
+    "javascript"
+  ],
+  "author": "Pedro Barcellos dos Reis",
+  "license": "ISC",
+  "repository": {
+    "url": "https://github.com/barcellos-pedro/nodejs-template-engine.git"
+  }
+}
