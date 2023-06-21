@@ -1,0 +1,12 @@
+{
+    "pageTitle": "Tagged Templates - Home",
+    "firstName": "Pedro",
+    "ocupation": "worker",
+    "alive": true,
+    "hobbies": [
+        "movies",
+        "games",
+        "tech",
+        "dates"
+    ]
+}

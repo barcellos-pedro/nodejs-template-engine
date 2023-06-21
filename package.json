@@ -5,7 +5,9 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js",
+    "demo": "node example.js"
   },
   "keywords": [
     "vanilla-js",
