@@ -10,10 +10,13 @@ const render = parseTemplate/*html*/ `<!DOCTYPE html>
     <title>${"pageTitle"}</title>
   </head>
   <body>
+    <!-- This comment will be ignored -->
     <h1>Current page: ${"pageTitle"}</h1>
     <p>Name: ${"firstName"}</p>
     <p>Ocupation ${"ocupation"}</p>
-    <!-- <p>This comment will be ignored</p> -->
+    <p>Am i alive? (ternary) <i>${"alive ? 'yes' : 'no'"}</i></p>
+    <p>${"alive && 'I am alive'"}</p>
+    <p>${"!alive && 'I am dead'"}</p>
     <h2>My hobbies</h2>
     <ul>
       <li>${"hobbies"}</li>
