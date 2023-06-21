@@ -8,6 +8,20 @@ const render = parseTemplate/*html*/ `<!DOCTYPE html>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>${"pageTitle"}</title>
+    <style>
+      :root {
+        --black: #222;
+        --white: #f8f8f8;
+      }
+      
+      body {
+        background-color: var(--black);
+      }
+
+      h1, h2, p, i, li {
+        color: var(--white);
+      }
+    </style>
   </head>
   <body>
     <!-- This comment will be ignored -->
@@ -31,7 +45,7 @@ const viewData = {
   firstName: "Pedro",
   ocupation: "worker",
   alive: true,
-  hobbies: ["movies", "games"],
+  hobbies: ["movies", "games", "tech", "dates"],
 };
 
 const template = render(viewData);
