@@ -4,6 +4,30 @@ Implementation of tagged templates to build a simple template engine for JavaScr
 
 Based on [MDN Template Literals - Tagged Templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates)
 
+## Sever-side mode
+
+You can run the server-side example from src/app.js
+
+```bash
+npm start
+```
+
+## Console mode
+
+Or run the example that outputs to the console and creates a index.html
+
+```bash
+node example.js
+```
+
+Or
+
+```bash
+npm run demo
+```
+
+# [example.js](https://github.com/barcellos-pedro/nodejs-template-engine/blob/main/example.js)
+
 ```js
 import parseTemplate from "./lib/parse-template.js";
 import * as Types from "./lib/types/types.js";
