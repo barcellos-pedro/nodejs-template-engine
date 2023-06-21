@@ -1,6 +1,6 @@
 # nodejs-template-engine
 
-Implementation of tagged templates to build a simple template engine for JavaScript and Node.js
+Implementation of tagged templates to build a simple template engine for JavaScript.
 
 Based on [MDN Template Literals - Tagged Templates](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals#tagged_templates)
 
