@@ -31,3 +31,4 @@ const template = render({
 
 console.log(template);
 ```
+![image](https://github.com/barcellos-pedro/nodejs-template-engine/assets/33139500/96078b52-0804-4f08-ade3-61b130f97941)
